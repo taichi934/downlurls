@@ -17,7 +17,7 @@ chrome.browserAction.onClicked.addListener(() => {
         let text = '';
         let cnt = 0;
         for (tab of tabs) {
-            // tab.index, tabs.title
+            // 後で役に立ちそうなプロパティ：tab.index, tabs.title
             text += tab.url + '\n';
             cnt++;
         }
