@@ -45,3 +45,6 @@ function getDate() {
 
     return `${year}年${month}月${date}日`;
 }
+
+// ダウンロード先を変更したりするときに参考にする
+// https://developer.chrome.com/docs/extensions/reference/downloads/#type-DownloadOptions
